@@ -5,7 +5,7 @@ export async function GET(request: NextRequest, { params }: { params: { path: st
   const { path } = params;
   console.log('Path:', path);
   
-  const targetUrl = `http://localhost:3000/embedded/${path.join('/')}`;
+  const targetUrl = `https://thunder-theta.vercel.app/embedded/${path.join('/')}`;
   console.log('Target URL:', targetUrl);
 
   try {

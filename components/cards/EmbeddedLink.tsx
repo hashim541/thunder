@@ -25,8 +25,8 @@ const EmbeddedLink = ({ componentId, styles, projectId, content,type }: Props) =
 
     const data = `
 <!-- Add this code to your HTML -->
-<iframe src="http://localhost:3000/embedded/${projectId}/${type}/${componentId}?page=1" width="100%" height="500px" frameborder="0"></iframe>  
-<a href="http://localhost:3000/dashboard/${projectId}/${type}/${componentId}/add">
+<iframe src="https://thunder-theta.vercel.app/embedded/${projectId}/${type}/${componentId}?page=1" width="100%" height="500px" frameborder="0"></iframe>  
+<a href="https://thunder-theta.vercel.app/dashboard/${projectId}/${type}/${componentId}/add">
     <button>${content}</button>
 </a>
                 `;
